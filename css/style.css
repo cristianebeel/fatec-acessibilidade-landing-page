@@ -39,6 +39,7 @@ p, li, li>a{
 #header{
   background: url("https://picsum.photos/id/0/5000/2500") no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .material-icons,
