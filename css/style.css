@@ -12,12 +12,24 @@ body{
   color: #333;
 }
 
+body.dark{
+  color: #fff;
+}
+
+#navbar{
+  background-color: #761d9d;
+}
+
 #navbar, h1, h2, h3, h4, h5, h6{
   font-family: 'Raleway', cursive;
 }
 
 #navbar>nav>a{
   font-size: 1.3rem;
+}
+
+#navbar.dark{
+  background-color: #575d63;
 }
 
 p, li, li>a{
@@ -29,6 +41,12 @@ p, li, li>a{
   background-size: cover;
 }
 
+.material-icons,
+.material-icons-outlined{
+  color: #ccc;
+  font-size: 1.5rem;
+}
+
 #sobre, #habilidades, #portfolio, #contato{
   padding: 3rem 6rem;
 }
@@ -37,8 +55,16 @@ p, li, li>a{
   background-color: #F0F9F9;
 }
 
+#sobre.dark, #portfolio.dark{
+  background-color: #24292D;
+}
+
 #habilidades, #contato{
   background-color: #F8FCFC;
+}
+
+#habilidades.dark, #contato.dark{
+  background-color: #565a5e;
 }
 
 .box{
@@ -61,6 +87,18 @@ p, li, li>a{
   padding: .75rem 1.5rem;
 }
 
+form #nome.dark{
+  color: #fff;
+}
+
+form #email.dark{
+  color: #fff;
+}
+
+form #msg.dark{
+  color: #fff;
+}
+
 form label{
   font-size: 1.3rem;
   margin: 1.25rem 0 .5rem 0;
@@ -70,7 +108,7 @@ form label, form textarea{
   display: block;
   margin-bottom: 0.5rem;
   padding: 0 .5rem;
-  color: rgba(31, 41, 55, 1);
+  color: #1f2937;
 }
 
 form input, form textarea{
